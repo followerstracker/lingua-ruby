@@ -1,0 +1,14 @@
+[package]
+name = "lingua"
+version = "0.1.0"
+edition = "2021"
+authors = ["Followers Tracker <support@followerstracker.com>"]
+license = "MIT"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+lingua = { version = "1.4.0" }
+magnus = { version = "0.4" }
